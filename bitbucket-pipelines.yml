@@ -13,4 +13,4 @@ pipelines:
                     - terraform init -backend-config="access_key=$TF_VAR_AWS_ACCESS_KEY" -backend-config="secret_key=$TF_VAR_AWS_SECRET_KEY"
                     - terraform validate
                     - terraform plan
-                    - terraform apply -input=false -auto-approve
+                    - terraform apply -input=false -auto-approve -var 'vault_token=$TF_VAR_VAULT_TOKEN'
