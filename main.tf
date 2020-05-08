@@ -22,6 +22,7 @@ data "aws_ami" "tinfoil" {
 resource "aws_instance" "tinfoil" {
     ami                     = "${data.aws_ami.tinfoil.id}"
     instance_type           = "t2.micro"
+    key_name                = "tinfoil-key"
     subnet_id               = "subnet-0dae8a8faf6253e62"
     count                   =  1
     tags = {
