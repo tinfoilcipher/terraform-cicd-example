@@ -4,4 +4,4 @@ This example will also require a funcional instance of Vault with working secret
 
 Pipeline leverages Hashicorp's official Terraform Docker Image for use in build process.
 
-Files intended for use in conjuction with the blog post BbiBucket, AWS And Terraform – Flexible CI/CD For Immutable Infrastructure https://www.tinfoilcipher.co.uk/?p=1149
+Files intended for use in conjuction with the blog post BitBucket, AWS And Terraform – Flexible CI/CD For Immutable Infrastructure https://www.tinfoilcipher.co.uk/?p=1149
