@@ -1,6 +1,6 @@
 #--Region
 variable "region" {
-    type        = "string"
+    type        = string
     description = "Primary Location"
     default      = "eu-west-2"
 }
@@ -8,12 +8,12 @@ variable "region" {
 # Vault URL
 variable "vault_url" {
     description = "Vault URL"
-    type        = "string"
+    type        = string
     default     = "https://<your_vault_hostname>:8200"
 }
 
 # Vault Token (For Runtime Input)
 variable "vault_token" {
-    type        = "string"
+    type        = string
     description = "Vault Token"
 }
